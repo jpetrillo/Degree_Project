@@ -1,0 +1,120 @@
+.container {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+canvas {
+  position: absolute;
+  width:100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+
+h1 {
+	font-family: Times, Georgia, Serif;
+	font-size: 80px;
+	line-height: .92em;
+	text-align: center;
+	-webkit-animation: TEXT 7s infinite;
+ 	-moz-animation:    TEXT 7s infinite;
+  	-o-animation:      TEXT 7s infinite;
+  	animation:         TEXT 7s infinite;
+  z-index: 2;
+}
+
+ul {
+  align-items: bottom;
+	font-size: 18px;
+	font-family: Courier, Georgia, Serif;
+	-webkit-animation: TEXT 7s infinite;
+ 	-moz-animation:    TEXT 7s infinite;
+  	-o-animation:      TEXT 7s infinite;
+  	animation:         TEXT 7s infinite;
+  z-index: 3;
+}
+
+.arrow {
+	position: absolute;
+	left: 50px;
+	text-align: center;
+	bottom: 5vh;
+	font-size:36px;
+	-webkit-animation: ARROW 5s infinite;
+ 	-moz-animation:    ARROW 5s infinite;
+  	-o-animation:      ARROW 5s infinite;
+  	animation:         ARROW 5s infinite;
+}
+
+.content {
+	width:100%;
+	background-color: #1D48FF;
+	color: white;
+}
+
+.content-container {
+  padding: 15px;
+}
+
+p {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:1.8em;
+}
+
+@-webkit-keyframes TEXT {
+  0%, 100%   { color: black; }
+  50% { color: #1D48FF; }
+  75% { color: #FF0090; }
+}
+
+@-moz-keyframes TEXT {
+  0%, 100%   { color: black; }
+  50% { color: #1D48FF; }
+  75% { color: #FF0090; }
+}
+
+@-o-keyframes TEXT {
+  0%, 100%   { color: black; }
+  50% { color: #1D48FF; }
+  75% { color: #FF0090; }
+}
+
+@keyframes TEXT {
+  0%, 100%   { color: black; }
+  50% { color: #1D48FF; }
+  75% { color: #FF0090; }
+}
+
+@-webkit-keyframes ARROW {
+  0%, 100%   { bottom:12vh; color: black;}
+  50% { bottom:5vh; color: #FF0090; }
+}
+
+@-moz-keyframes ARROW {
+  0%, 100%   { bottom:12vh; color: black;}
+  50% { bottom:5vh; color: #FF0090; }
+}
+
+@-o-keyframes ARROW {
+  0%, 100%   { bottom:12vh; color: black;}
+  50% { bottom:5vh; color: #FF0090; }
+}
+
+@keyframes ARROW {
+  0%, 100%   { bottom:12vh; color: black;}
+  50% { bottom:5vh; color: #FF0090; }
+}
+
+
+*/
