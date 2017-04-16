@@ -64,6 +64,7 @@ ul {
 	background-color: #1D48FF;
 	color: white;
   z-index: 20;
+  margin: 0;
 }
 
 .content-container {
