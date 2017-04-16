@@ -25,8 +25,9 @@ canvas {
 
 h1 {
 	font-family: Times, Georgia, Serif;
-	font-size: 80px;
-	line-height: .92em;
+	font-size: 120px;
+  font-weight: normal;
+	line-height: .85em;
 	text-align: center;
 	-webkit-animation: TEXT 7s infinite;
  	-moz-animation:    TEXT 7s infinite;
@@ -109,9 +110,16 @@ p {
 }
 
 @media (max-width: 950px) {
+  h1 {
+    font-size: 80px;
+    line-height: 1em;
+    margin: 20px 0px;
+  }
+
   .content {
     height: inherit;
   }
+
   .content-container {
     padding: 15px 15px;
   }
