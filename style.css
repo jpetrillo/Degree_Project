@@ -34,8 +34,7 @@ h1 {
   	-o-animation:      TEXT 7s infinite;
   	animation:         TEXT 7s infinite;
   z-index: 2;
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin: 50px 0px;
   padding: 0;
 }
 
@@ -70,7 +69,7 @@ ul {
 }
 
 li {
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .arrow {
