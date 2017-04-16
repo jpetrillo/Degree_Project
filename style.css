@@ -32,8 +32,8 @@ h1 {
   	-o-animation:      TEXT 7s infinite;
   	animation:         TEXT 7s infinite;
   z-index: 2;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   padding: 0;
 }
 
@@ -41,6 +41,7 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 12px;
+  text-transform: uppercase;
   text-decoration: underline;
     -webkit-animation: TEXT 7s infinite;
   -moz-animation:    TEXT 7s infinite;
@@ -48,6 +49,7 @@ h2 {
     animation:         TEXT 7s infinite;
   z-index: 2;
   padding: 0;
+  margin: 0;
 }
 
 ul {
@@ -55,6 +57,7 @@ ul {
 	font-size: 18px;
   text-align: center;
   padding: 0;
+  margin: 0;
   list-style: none;
 	font-family: Courier, Monospace;
 	-webkit-animation: TEXT 7s infinite;
@@ -106,6 +109,9 @@ p {
 }
 
 @media (max-width: 800px) {
+  .content {
+    height: inherit;
+  }
   .content-container {
     padding: 15px 15px;
   }
