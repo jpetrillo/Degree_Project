@@ -32,17 +32,40 @@ h1 {
   	-o-animation:      TEXT 7s infinite;
   	animation:         TEXT 7s infinite;
   z-index: 2;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 0;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: underline;
+    -webkit-animation: TEXT 7s infinite;
+  -moz-animation:    TEXT 7s infinite;
+    -o-animation:      TEXT 7s infinite;
+    animation:         TEXT 7s infinite;
+  z-index: 2;
+  padding: 0;
 }
 
 ul {
   align-items: bottom;
-	font-size: 28px;
+	font-size: 18px;
+  text-align: center;
+  padding: 0;
+  list-style: none;
 	font-family: Courier, Monospace;
 	-webkit-animation: TEXT 7s infinite;
  	-moz-animation:    TEXT 7s infinite;
   	-o-animation:      TEXT 7s infinite;
   	animation:         TEXT 7s infinite;
   z-index: 3;
+}
+
+li {
+  margin-bottom: 12px;
 }
 
 .arrow {
@@ -65,6 +88,10 @@ ul {
 	color: white;
   z-index: 20;
   margin: 0;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .content-container {
